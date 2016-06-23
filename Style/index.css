@@ -1,0 +1,90 @@
+
+* {
+	padding: 0;
+	margin: 0;
+   	font: 14px/1.5 "Microsoft Yahei", 微软雅黑, adobe雅黑, "helvetica neue", tahoma, "hiragino sans gb", stheiti, 宋体, sans-serif;
+   	color: #333;
+}
+ul {
+	list-style: none;
+}
+html {
+	background: url(bg.jpg);
+}
+header {
+	margin-bottom: 10px;
+	height: 60px;
+	line-height: 60px;
+	color: #eee;
+	font-size: 22px;
+	font-weight: bold;
+	text-indent: 200px;
+	border-bottom: 1px solid #285e8e;
+    background: #3276b1;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+section {
+	width: 1024px;
+	margin: 0 auto;
+	min-height: 40px;
+}
+
+#title h1 {
+	float: left;
+	font-size: 18px;
+	font-weight: bold;
+}
+#title h1:nth-child(1) {
+	width: 20%
+}
+#title h1:nth-child(2) {
+	width: 10%
+}
+#title h1:nth-child(3) {
+	width: 70%
+}
+section {
+	padding: 8px 0;
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+}
+section a {
+	color: #3276b1;
+	font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas;
+}
+section h2, section div, section ul {
+	float: left;
+}
+section h2 {
+	width: 20%
+}
+.right {
+	width: 80%;
+}
+.version {
+	width: 12.5%;
+	font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas;
+}
+.url {
+	margin-bottom: 5px;
+	width: 87.5%;
+}
+.url li {
+	font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas;
+}
+#footer {
+	margin: 3% 10% 0%;
+	text-align: center;
+	font-size: 12px;
+	color: #888;
+	font-family: Georgia,serif;
+	font-style: italic;
+}
+#footer a {
+    color: #3276b1;
+    text-decoration: none;
+    padding-left: 10px;
+    display: inline-block;
+    margin-bottom: 4%;
+}

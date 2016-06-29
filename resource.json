@@ -1,0 +1,104 @@
+{
+  "root": "http://resali.huobanplus.com/cdn/",
+  "release": "2016.06.29",
+  "libs": [
+    {
+      "name": "bootstrap",
+      "url": "http://getbootstrap.com/",
+      "jquery": true,
+      "version": ["3.3.6"],
+      "resource": ["bootstrap.min.js", "bootstrap.js", "css/bootstrap.min.css", "css/bootstrap.css"]
+    },
+    {
+      "name": "clipboard",
+      "url": "https://clipboardjs.com/",
+      "version": ["1.5.12"],
+      "resource": ["clipboard.min.js", "clipboard.js"]
+    },
+    {
+      "name": "countUp",
+      "url": "http://inorganik.github.io/countUp.js/",
+      "version": ["1.7.1"],
+      "resource": ["countUp.min.js", "countUp.js"]
+    },
+    {
+      "name": "font-awesome",
+      "url": "http://fontawesome.io/",
+      "version": ["4.6.3"],
+      "resource": ["css/font-awesome.min.css", "css/font-awesome.css"]
+    },
+    {
+      "name": "highCharts",
+      "jquery": true,
+      "url": "http://www.highcharts.com/",
+      "version": ["4.2.5"],
+      "resource": ["highcharts.js"]
+    },
+    {
+      "name": "hover",
+      "url": "https://github.com/IanLunn/Hover",
+      "version": ["2.0.2"],
+      "resource": ["css/hover-min.css", "css/hover.css"]
+    },
+    {
+      "name": "jquery",
+      "url": "http://jquery.com/",
+      "version": ["1.9.1","1.12.4","2.2.4","3.0.0"],
+      "resource": ["jquery.min.js","jquery.js"]
+    },
+    {
+      "name": "jquery-ui",
+      "jquery": true,
+      "url": "http://jqueryui.com/",
+      "version": ["1.11.4"],
+      "resource": ["jquery-ui.min.js","jquery-ui.js","jquery-ui.min.css","jquery-ui.css","jquery-ui.structure.min.css","jquery-ui.structure.css","jquery-ui.theme.min.css","jquery-ui.theme.css"]
+    },
+    {
+      "name": "jquery-validation",
+      "jquery": true,
+      "url": "https://jqueryvalidation.org/",
+      "version": ["1.15.0"],
+      "resource": ["jquery.validate.min.js","jquery.validate.js","additional-methods.min.js","additional-methods.js","localization/messages_zh.min.js","localization/messages_zh.js","localization/messages_zh_TW.min.js","localization/messages_zh_TW.js"]
+    },
+    {
+      "name": "jquery-weui",
+      "jquery": true,
+      "url": "http://lihongxun945.github.io/jquery-weui/",
+      "version": ["0.7.2"],
+      "resource": ["jquery-weui.min.js","jquery-weui.js","weui.min.css","weui.css","jquery-weui.min.css","jquery-weui.css"]
+    },
+    {
+      "name": "layer",
+      "jquery": true,
+      "url": "http://layer.layui.com/",
+      "version": ["2.3"],
+      "resource": ["layer.js"]
+    },
+    {
+      "name": "slick",
+      "jquery": true,
+      "url": "http://kenwheeler.github.io/slick/",
+      "version": ["1.6.0"],
+      "resource": ["slick.min.js","slick.js","slick.css","slick-theme.css"]
+    },
+    {
+      "name": "swiper",
+      "jquery": true,
+      "url": "http://idangero.us/swiper/",
+      "version": ["3.3.1"],
+      "resource": ["swiper.min.js","swiper.js","swiper.jquery.min.js","swiper.jquery.js","swiper.jquery.umd.min.js","swiper.jquery.umd.js","css/swiper.min.css","css/swiper.css"]
+    },
+    {
+      "name": "underscore",
+      "url": "http://underscorejs.org/",
+      "version": ["1.8.3"],
+      "resource": ["underscore-min.js","underscore.js"]
+    },
+    {
+      "name": "zepto",
+      "url": "http://zeptojs.com/",
+      "version": ["1.1.6"],
+      "resource": ["zepto.min.js","zepto.js"]
+    }
+  ]
+}

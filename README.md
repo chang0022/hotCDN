@@ -1,0 +1,2 @@
+# hotCDN
+Changelog is Readme

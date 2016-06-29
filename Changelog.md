@@ -18,16 +18,16 @@ resource.json 数据源，页面更新通过对此文件的增删改
 ###### hover
 一套基于CSS3的hover 效果 UI，应用于链接，按钮，logo，SVG，图片等
 
-##### jquery-validation
+###### jquery-validation
 强大的表单验证插件。
 - additional-methods.js 扩展功能
 - localization/ 本地化
 
-##### slick
+###### slick
 强大的轮播插件 官网自称 > the last carousel you'll ever need
 - slick-theme.css 样式文件，如需要自定制，就不需要引用
 
-##### swiper
+###### swiper
 另有一款强大的轮播插件，纯javascript打造的滑动特效插件，面向手机、平板电脑等移动终端，免费、稳定、使用简单、功能强大，是架构移动终端网站的重要选择
 - swiper.jquery.js jQuery版本
 - swiper.jquery.umd.js 移动端版本

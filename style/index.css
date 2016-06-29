@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    font: 14px/1.5 "Microsoft Yahei", 微软雅黑, adobe雅黑, "helvetica neue", tahoma, "hiragino sans gb", stheiti, 宋体, sans-serif;
+    color: #333;
+    outline: none;
+}
+ul {
+    list-style: none;
+}
+html {
+    background: url(bg.jpg);
+}
+header {
+    margin-bottom: 10px;
+    height: 60px;
+    line-height: 60px;
+    color: #eee;
+    font-size: 22px;
+    font-weight: bold;
+    text-indent: 200px;
+    border-bottom: 1px solid #285e8e;
+    background: #3276b1;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+header a {
+    display: inline-block;
+    padding: 2px;
+    text-indent: 0;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+}
+header i {
+    margin-left: 5px;
+    color: #e0e0e0;
+    font-size: 12px;
+}
+section {
+    width: 1280px;
+    margin: 0 auto;
+    min-height: 40px;
+}
+
+#title h1 {
+    float: left;
+    font-size: 18px;
+    font-weight: bold;
+}
+#title h1:nth-child(1) {
+    width: 20%
+}
+#title h1:nth-child(2) {
+    width: 10%
+}
+#title h1:nth-child(3) {
+    width: 70%
+}
+section {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    overflow: hidden;
+}
+section:not([id="title"]) {
+    padding-bottom: 32px;
+}
+section a {
+    color: #3276b1;
+    font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, sans-serif;
+}
+section h2, section div, section ul {
+    float: left;
+}
+section h2 {
+    padding: 7px 0;
+    width: 20%
+}
+section h2>a {
+    float: left;
+}
+section h2>s {
+    margin-left: 5px;
+    float: left;
+    width: 16px;
+    height: 16px;
+    background: url("jquery.png") no-repeat;
+}
+.right {
+    width: 80%;
+}
+.version {
+    padding: 7px 0;
+    width: 12.5%;
+    font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, sans-serif;
+}
+.url {
+    margin-bottom: 5px;
+    width: 87.5%;
+}
+.url li {
+    padding: 7px 0;
+}
+.url span {
+    font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, sans-serif;
+}
+.url div {
+    display: none;
+    float: right;
+    margin-right: 50px;
+}
+.url button {
+    width: 32px;
+    background-color: #e1e1e1;
+    border: 1px solid #d5d5d5;
+    border-radius: 3px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+#footer {
+    margin: 3% 10% 0%;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+    font-family: Georgia,serif;
+    font-style: italic;
+}
+#footer a {
+    color: #3276b1;
+    text-decoration: none;
+    padding-left: 10px;
+    display: inline-block;
+    margin-bottom: 4%;
+}

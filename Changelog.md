@@ -1,5 +1,5 @@
 #### #Update 2016-06-29
-名称后面有 ![jQuery logo](https://github.com/chang0022/hotCDN/tree/master/style/jquery.png) 代表依赖jQuery
+名称后面有 ![jQuery logo](https://github.com/chang0022/hotCDN/blob/master/style/jquery.png) 代表依赖jQuery
 index.html 页面使用 artTemplateJs 模板引擎。
 resource.json 数据源，页面更新通过对此文件的增删改
 

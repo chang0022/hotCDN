@@ -1,2 +1,2 @@
 # hotCDN
-Changelog is Readme
+Changelog.md is Readme.md

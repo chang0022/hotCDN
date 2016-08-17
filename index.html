@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+    <meta name="author" content="Neo Chang">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=Edge, chrome=1">
 	<meta http-equiv="Pragma" content="no-cache">
 	<meta http-equiv="Cache-Control" content="no-cache">
 	<meta http-equiv="Expires" content="0">
 	<title>火图静态资源库</title>
+    <link rel="stylesheet" href="http://resali.huobanplus.com/cdn/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" href="http://resali.huobanplus.com/cdn/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="stylesheet" href="http://resali.huobanplus.com/cdn/hover/2.0.2/css/hover-min.css">
 	<link rel="stylesheet" href="style/simptip.min.css">
@@ -14,27 +17,33 @@
 </head>
 <body>
 	<header>火图静态资源库<a href="https://github.com/chang0022/hotCDN/blob/master/Changelog.md" target="_blank">更新日志</a><i></i></header>
-	<section id="title">
-		<h1>库名称</h1>
-		<h1>版本</h1>
-		<h1>地址</h1>
+	<section class="container" id="title">
+        <div class="row">
+            <h1 class="col-xs-3 col-sm-2">库名称</h1>
+            <div class="col-xs-9 col-sm-10 row">
+                <h1 class="col-xs-4 col-sm-2">版本</h1>
+                <h1 class="col-xs-8 col-sm-10">地址</h1>
+            </div>
+        </div>
 	</section>
     <script id="lists" type="text/html">
         {{each libs as value}}
-        <section>
-            <h2><a href="{{value.url}}" rel="nofollow" target="_blank">{{value.name}}</a>{{ if value.jquery}}<s></s>{{/if}}</h2>
-            <div class="right">
-                {{each value.version as val}}
-                <div class="version">{{val}}</div>
-                <ul class="url">
-                    {{each value.resource as v}}
-                    <li>
-                        <span>{{root + value.name + '/' + val + '/' + v}}</span>
-                        <div class="simptip-position-bottom simptip-movable" data-tooltip="Copy to clipboard" data-copied-hint="Copied!"><button class="hvr-glow" type="button"><i class="fa fa-clipboard"></i></button></div>
-                    </li>
+        <section class="container">
+            <div class="row">
+                <h2 class="col-sm-2 clearfix"><a href="{{value.url}}" rel="nofollow" target="_blank">{{value.name}}</a>{{ if value.jquery}}<s></s>{{/if}}</h2>
+                <div class="col-sm-10 row">
+                    {{each value.version as val}}
+                    <p class="version col-sm-2">{{val}}</p>
+                    <ul class="list-unstyled url col-sm-10">
+                        {{each value.resource as v}}
+                        <li>
+                            <span>{{root + value.name + '/' + val + '/' + v}}</span>
+                            <div class="simptip-position-bottom simptip-movable hidden-xs" data-tooltip="Copy to clipboard" data-copied-hint="Copied!"><button class="hvr-glow" type="button"><i class="fa fa-clipboard"></i></button></div>
+                        </li>
+                        {{/each}}
+                    </ul>
                     {{/each}}
-                </ul>
-                {{/each}}
+                </div>
             </div>
         </section>
         {{/each}}
@@ -52,17 +61,22 @@
         var copied = parent.attr('data-copied-hint');
         parent.attr('data-tooltip', copied);
     });
-    $('body').on('mouseenter', '.url li', function () {
-        if ( $(this).children('div')) $(this).children('div').stop().fadeIn();
-    });
-    $('body').on('mouseleave', '.url li', function () {
-        if ( $(this).children('div')) $(this).children('div').stop().fadeOut();
-    });
+
+    $('body').on({
+        mouseenter: function() {
+            if ( $(this).children('div')) $(this).children('div').stop().fadeIn();
+        },
+        mouseleave: function() {
+            if ( $(this).children('div')) $(this).children('div').stop().fadeOut();
+        }
+    }, '.url li');
+
 	new Clipboard('.hvr-glow', {
 		target: function(trigger) {
 			return trigger.parentElement.previousElementSibling;
 		}
 	});
+
     var root, version;
     $.getJSON('resource.json', function (data) {
         root = data.root;
@@ -71,5 +85,6 @@
         var html = template('lists' ,data);
         $('#title').after(html);
     });
+
 </script>
 </html>

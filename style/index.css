@@ -1,12 +1,7 @@
 * {
-    padding: 0;
-    margin: 0;
     font: 14px/1.5 "Microsoft Yahei", 微软雅黑, adobe雅黑, "helvetica neue", tahoma, "hiragino sans gb", stheiti, 宋体, sans-serif;
     color: #333;
     outline: none;
-}
-ul {
-    list-style: none;
 }
 html {
     background: url(bg.jpg);
@@ -18,11 +13,16 @@ header {
     color: #eee;
     font-size: 22px;
     font-weight: bold;
-    text-indent: 200px;
+    text-indent: 50px;
     border-bottom: 1px solid #285e8e;
     background: #3276b1;
     box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.1), 0 1px 3px 0 rgba(0, 0, 0, 0.2);
     overflow: hidden;
+}
+@media (min-width: 768px) {
+    header {
+        text-indent: 200px;
+    }
 }
 header a {
     display: inline-block;
@@ -38,27 +38,13 @@ header i {
     color: #e0e0e0;
     font-size: 12px;
 }
-section {
-    width: 80%;
-    margin: 0 auto;
-    min-height: 40px;
-}
 #title h1 {
     float: left;
     font-size: 18px;
     font-weight: bold;
 }
-#title h1:nth-child(1) {
-    width: 16%
-}
-#title h1:nth-child(2) {
-    width: 10%
-}
-#title h1:nth-child(3) {
-    width: 74%
-}
 section {
-    padding: 8px 0;
+    padding: 20px 0;
     border-bottom: 1px solid #ddd;
     overflow: hidden;
 }
@@ -69,47 +55,39 @@ section a {
     color: #3276b1;
     font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, sans-serif;
 }
-section h2, section div, section ul {
-    float: left;
-}
 section h2 {
-    padding: 7px 0;
-    width: 16%
+    padding: 0;
+    margin: 0;
 }
-section h2>a {
+section h2 > a {
     float: left;
 }
-section h2>s {
+section h2 > s {
     margin-left: 5px;
     float: left;
     width: 16px;
     height: 16px;
     background: url("jquery.png") no-repeat;
 }
-.right {
-    width: 80%;
-}
 .version {
-    padding: 7px 0;
-    width: 12.5%;
     font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, sans-serif;
 }
 .url {
     margin-bottom: 5px;
-    width: 87.5%;
 }
 .url li {
-    padding: 7px 0;
-    min-height: 26px;
+    position: relative;
+    padding-bottom: 10px;
 }
 .url span {
-    float: left;
     font-family: Menlo, "Bitstream Vera Sans Mono", "DejaVu Sans Mono", Monaco, Consolas, sans-serif;
+    word-break: break-all;
 }
 .url div {
+    position: absolute;
+    top: 0;
+    right: 0;
     display: none;
-    float: right;
-    margin-right: 50px;
 }
 .url button {
     width: 32px;

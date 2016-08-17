@@ -99,6 +99,12 @@
       "url": "http://zeptojs.com/",
       "version": ["1.1.6"],
       "resource": ["zepto.min.js","zepto.js"]
+    },
+    {
+      "name": "normalize",
+      "url": "https://github.com/necolas/normalize.css/",
+      "version": ["4.2.0"],
+      "resource": ["normalize.css"]
     }
   ]
 }

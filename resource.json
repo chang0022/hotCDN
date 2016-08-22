@@ -1,110 +1,236 @@
 {
   "root": "http://resali.huobanplus.com/cdn/",
-  "release": "2016.06.29",
+  "release": "2016.08.22",
   "libs": [
     {
       "name": "bootstrap",
       "url": "http://getbootstrap.com/",
       "jquery": true,
-      "version": ["3.3.6"],
-      "resource": ["bootstrap.min.js", "bootstrap.js", "css/bootstrap.min.css", "css/bootstrap.css"]
+      "version": ["3.3.7"],
+      "resource": [
+        "bootstrap.min.js",
+        "bootstrap.js",
+        "css/bootstrap.min.css",
+        "css/bootstrap.css"
+      ]
+    },
+    {
+      "name": "ckeditor",
+      "url": "http://ckeditor.com/",
+      "version": ["4.5.10"],
+      "resource": [
+        "standard/ckeditor.js",
+        "standard/adapters/jquery.js"
+      ]
     },
     {
       "name": "clipboard",
       "url": "https://clipboardjs.com/",
       "version": ["1.5.12"],
-      "resource": ["clipboard.min.js", "clipboard.js"]
+      "resource": [
+        "clipboard.min.js",
+        "clipboard.js"
+      ]
     },
     {
       "name": "countUp",
       "url": "http://inorganik.github.io/countUp.js/",
       "version": ["1.7.1"],
-      "resource": ["countUp.min.js", "countUp.js"]
+      "resource": [
+        "countUp.min.js",
+        "countUp.js"
+      ]
     },
     {
       "name": "font-awesome",
       "url": "http://fontawesome.io/",
       "version": ["4.6.3"],
-      "resource": ["css/font-awesome.min.css", "css/font-awesome.css"]
+      "resource": [
+        "css/font-awesome.min.css",
+        "css/font-awesome.css"
+      ]
     },
     {
       "name": "highCharts",
       "jquery": true,
       "url": "http://www.highcharts.com/",
       "version": ["4.2.5"],
-      "resource": ["highcharts.js"]
-    },
-    {
-      "name": "hover",
-      "url": "https://github.com/IanLunn/Hover",
-      "version": ["2.0.2"],
-      "resource": ["css/hover-min.css", "css/hover.css"]
+      "resource": [
+        "highcharts.js"
+      ]
     },
     {
       "name": "jquery",
       "url": "http://jquery.com/",
-      "version": ["1.9.1","1.12.4","2.2.4","3.0.0"],
-      "resource": ["jquery.min.js","jquery.js"]
+      "version": ["1.9.1","1.12.4","2.2.4","3.1.0"],
+      "resource": [
+        "jquery.min.js",
+        "jquery.js"
+      ]
+    },
+    {
+      "name": "jquery.dataTables",
+      "jquery": true,
+      "url": "https://www.datatables.net/",
+      "version": ["1.10.12"],
+      "resource": [
+        "jquery.dataTables.min.js",
+        "jquery.dataTables.js",
+        "dataTables.jqueryui.min.js",
+        "dataTables.jqueryui.js",
+        "dataTables.bootstrap.min.js",
+        "dataTables.bootstrap.min.js",
+        "css/jquery.dataTables.min.css",
+        "css/jquery.dataTables.css",
+        "css/dataTables.jqueryui.min.css",
+        "css/dataTables.jqueryui.css",
+        "css/dataTables.bootstrap.min.css",
+        "css/dataTables.bootstrap.css"
+      ]
+    },
+    {
+      "name": "mCustomScrollbar",
+      "jquery": true,
+      "url": "http://manos.malihu.gr/jquery-custom-content-scroller/",
+      "version": ["3.1.5"],
+      "resource": [
+        "jquery.mCustomScrollbar.min.js",
+        "jquery.mCustomScrollbar.js",
+        "jquery.mCustomScrollbar.concat.min.js",
+        "css/jquery.mCustomScrollbar.min.css",
+        "css/jquery.mCustomScrollbar.css"
+      ]
+    },
+    {
+      "name": "bigcolorpicker",
+      "jquery": true,
+      "url": "http://bigui4.sinaapp.com/index.html",
+      "version": ["2.5.1"],
+      "resource": [
+        "jquery.bigcolorpicker.js",
+        "css/jquery.bigcolorpicker.css"
+      ]
+    },
+    {
+      "name": "jquery-form",
+      "jquery": true,
+      "url": "http://jquery.malsup.com/form/",
+      "version": ["3.51"],
+      "resource": [
+        "jquery.form.min.js",
+        "jquery.form.js"
+      ]
     },
     {
       "name": "jquery-ui",
       "jquery": true,
       "url": "http://jqueryui.com/",
-      "version": ["1.11.4"],
-      "resource": ["jquery-ui.min.js","jquery-ui.js","jquery-ui.min.css","jquery-ui.css","jquery-ui.structure.min.css","jquery-ui.structure.css","jquery-ui.theme.min.css","jquery-ui.theme.css"]
+      "version": ["1.11.4","1.12.0"],
+      "resource": [
+        "jquery-ui.min.js",
+        "jquery-ui.js",
+        "jquery-ui.min.css",
+        "jquery-ui.css",
+        "jquery-ui.structure.min.css",
+        "jquery-ui.structure.css",
+        "jquery-ui.theme.min.css",
+        "jquery-ui.theme.css"
+      ]
+    },
+    {
+      "name": "upload-file",
+      "jquery": true,
+      "url": "http://hayageek.com/docs/jquery-upload-file.php",
+      "version": ["4.0.10"],
+      "resource": [
+        "jquery.uploadfile.min.js",
+        "jquery.uploadfile.js",
+        "css/uploadfile.custom.css",
+        "css/uploadfile.css"
+      ]
     },
     {
       "name": "jquery-validation",
       "jquery": true,
       "url": "https://jqueryvalidation.org/",
       "version": ["1.15.0"],
-      "resource": ["jquery.validate.min.js","jquery.validate.js","additional-methods.min.js","additional-methods.js","localization/messages_zh.min.js","localization/messages_zh.js","localization/messages_zh_TW.min.js","localization/messages_zh_TW.js"]
+      "resource": [
+        "jquery.validate.min.js",
+        "jquery.validate.js",
+        "additional-methods.min.js",
+        "additional-methods.js",
+        "localization/messages_zh.min.js",
+        "localization/messages_zh.js",
+        "localization/messages_zh_TW.min.js",
+        "localization/messages_zh_TW.js"
+      ]
     },
     {
       "name": "jquery-weui",
       "jquery": true,
-      "url": "http://lihongxun945.github.io/jquery-weui/",
-      "version": ["0.7.2"],
-      "resource": ["jquery-weui.min.js","jquery-weui.js","weui.min.css","weui.css","jquery-weui.min.css","jquery-weui.css"]
+      "url": "http://jqweui.com/",
+      "version": ["0.8.1"],
+      "resource": [
+        "jquery-weui.min.js",
+        "jquery-weui.js",
+        "swiper.min.js",
+        "swiper.js",
+        "city-picker.min.js",
+        "city-picker.js",
+        "weui.min.css",
+        "weui.css",
+        "jquery-weui.min.css",
+        "jquery-weui.css"
+      ]
     },
     {
       "name": "layer",
       "jquery": true,
       "url": "http://layer.layui.com/",
-      "version": ["2.3"],
+      "version": ["2.4"],
       "resource": ["layer.js"]
-    },
-    {
-      "name": "slick",
-      "jquery": true,
-      "url": "http://kenwheeler.github.io/slick/",
-      "version": ["1.6.0"],
-      "resource": ["slick.min.js","slick.js","slick.css","slick-theme.css"]
     },
     {
       "name": "swiper",
       "jquery": true,
       "url": "http://idangero.us/swiper/",
       "version": ["3.3.1"],
-      "resource": ["swiper.min.js","swiper.js","swiper.jquery.min.js","swiper.jquery.js","swiper.jquery.umd.min.js","swiper.jquery.umd.js","css/swiper.min.css","css/swiper.css"]
-    },
-    {
-      "name": "underscore",
-      "url": "http://underscorejs.org/",
-      "version": ["1.8.3"],
-      "resource": ["underscore-min.js","underscore.js"]
+      "resource": [
+        "swiper.min.js",
+        "swiper.js",
+        "swiper.jquery.min.js",
+        "swiper.jquery.js",
+        "swiper.jquery.umd.min.js",
+        "swiper.jquery.umd.js",
+        "css/swiper.min.css",
+        "css/swiper.css"
+      ]
     },
     {
       "name": "zepto",
       "url": "http://zeptojs.com/",
-      "version": ["1.1.6"],
+      "version": ["1.2.0"],
       "resource": ["zepto.min.js","zepto.js"]
     },
     {
-      "name": "normalize",
-      "url": "https://github.com/necolas/normalize.css/",
-      "version": ["4.2.0"],
-      "resource": ["normalize.css"]
+      "name": "zTree",
+      "jquery": true,
+      "url": "http://www.treejs.cn/v3/main.php#_zTreeInfo",
+      "version": ["3.5.24"],
+      "resource": [
+        "jquery.ztree.all.min.js",
+        "jquery.ztree.all.js",
+        "jquery.ztree.core.min.js",
+        "jquery.ztree.core.js",
+        "jquery.ztree.excheck.min.js",
+        "jquery.ztree.excheck.js",
+        "jquery.ztree.exedit.min.js",
+        "jquery.ztree.exedit.js",
+        "jquery.ztree.exhide.min.js",
+        "jquery.ztree.exhide.js",
+        "css/zTreeStyle/zTreeStyle.css",
+        "css/metroStyle/metroStyle.css"
+      ]
     }
   ]
 }

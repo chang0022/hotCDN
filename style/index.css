@@ -24,6 +24,11 @@ header {
         text-indent: 200px;
     }
 }
+@media (min-width: 1200px) {
+    header {
+        text-indent: 200px;
+    }
+}
 header a {
     display: inline-block;
     padding: 2px;

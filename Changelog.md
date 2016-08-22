@@ -1,3 +1,57 @@
+#### #Update 2016-08-22
+
+###### bootstrap
+更新至 3.3.7
+
+###### ckeditor
+非常棒的一个富文本编辑器插件
+
+###### ~~hover~~
+~~大家不常使用，暂时从列表中移除（资源文件存在）~~
+
+###### jQuery
+更新至: 3.1.0
+
+###### jquery.dataTables
+强大的 Table 插件，满足日常，并具有很强的扩展性。它具有多个样式的支持。
+
+###### mCustomScrollbar
+小巧、强大的美化滚动条插件
+
+###### bigcolorpicker
+较为简单的拾色器插件，满足大部分日常需求
+
+###### jquery-form
+扩展 jquery 对 form 的扩展操作，更好的使用 Ajax 提交表单。
+
+###### jQuery-UI 
+更新至: 1.12.0 新项目使用最新，就项目不必升级。
+
+###### upload-file
+非常好用的 Upload 插件，API 比较齐全，满足日常需求和扩展，适合新手使用。
+
+###### jquery-weui
+更新至 0.8.1，具有较大更新，推荐新项目使用该版本。
+
+###### layer
+更新至 2.4
+
+###### ~~slick~~
+~~因为 Swiper 比较强大。所以删除该插件的提供。~~
+
+###### zepto
+更新至 1.2.0
+
+###### zTree
+zTree 是一个依靠 jQuery 实现的多功能 “树插件”。优异的性能、灵活的配置、多种功能的组合，是开源免费的软件（MIT 许可证）。
+- jquery.ztree.all.min.js 全部功能代码，all.js = core + excheck + exedit ( 不包括 exhide )
+- jquery.ztree.core.min.js 核心代码
+- jquery.ztree.excheck.min.js 选择功能代码
+- jquery.ztree.exedit.min.js 编辑功能代码
+- jquery.ztree.exhide.min.js 隐藏功能代码
+- zTreeStyle.css 默认风格
+- metroStyle.css Bootstrap风格
+
 #### #Update 2016-06-29
 名称后面有 ![jQuery logo](https://github.com/chang0022/hotCDN/blob/master/style/jquery.png) 代表依赖jQuery
 

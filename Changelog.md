@@ -1,3 +1,37 @@
+#### #Update 2016-08-25
+删除所有的debug版本，调试请删除 ___.min___ 即可
+
+###目前所有资源列表
+
+- bootstrap 3.3.7 > 3.3.6 > 3.3.5
+- bootstrap-hover-dropdown 2.0.1
+- bootstrap-treeview 1.2.0
+- ckeditor 4.5.10
+- clipboard 1.5.12
+- countUp 1.7.1
+- datatables 1.10.12
+- fine-uploader 5.11.7 > jquery-fine-uploader 5.10.0
+- font-awesome 4.6.3
+- highCharts 4.2.5
+- hover 2.0.2
+- jquery 3.1.0 > 3.0.0 - 2.2.4 - 1.12.4 > 1.9.1
+- jquery-bigcolorpicker 2.5.1
+- jquery-form 3.51
+- jquery-ui 1.12.0 > 1.11.4
+- jquery-upload-file 4.0.10
+- jquery-validation 1.15.0
+- jquery-weui 0.8.1 > 0.8.0 > 0.7.2
+- jquery.dataTables 1.10.12
+- jquery.mCustomScrollbar 3.1.5
+- layer 2.4 > 2.3
+- normalize 4.2.0
+- slick 1.6.0
+- swiper 3.3.1
+- underscore 1.8.3
+- web-storage-cache 1.0.1
+- zepto 1.2.0 > 1.1.6
+- zTree 3.5.24
+ 
 #### #Update 2016-08-22
 
 ###### bootstrap

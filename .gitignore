@@ -2,13 +2,16 @@
 *.txt
 node_modules/
 bootstrap/
+bootstrap-hover-dropdown/
 bootstrap-treeview/
 ckeditor/
 clipboard/
 countUp/
 font-awesome/
+fine-uploader/
 highCharts/
 hover/
+hotui/
 jquery/
 jquery.dataTables/
 jquery.mCustomScrollbar/
@@ -22,6 +25,7 @@ layer/
 normalize/
 slick/
 swiper/
+spectrum/
 underscore/
 web-storage-cache/
 zepto/
